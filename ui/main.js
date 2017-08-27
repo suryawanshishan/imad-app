@@ -23,7 +23,7 @@ button.onclick = function () {
     
     };
     //make request
-    request.open('GET', 'http://suryawanshishantanu9.imad.hasura-app.io/counter',true);
+    request.open('GET', 'http://suryawanshishantanu9.imad.hasura-app.io/counter', true);
     request.send(null);
     
 };
